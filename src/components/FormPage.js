@@ -517,7 +517,8 @@ class FormPage extends Component {
             <div>
 
             <div id="formPage" style={formPageStyle}>
-                <h1>FORMPAGE</h1>
+                <h1>주제를 선택해주세요</h1>
+		<h3></h3>
                 <div id = "questionId"><h2>{this.props.title}</h2>
                     </div>
                 <input onClick={this.changeContext1} id="o1" type="button" value="편의점"/>
