@@ -101,8 +101,8 @@ class LoginPage extends Component {
     return (
 
         <div id="getNamePhone" >
-            <h1>안녕하세요?</h1>
-            <p>시작하기에 앞서 이름과 휴대폰번호 뒷자리를 입력해주세요.</p>
+            <h1>시작하기 전에, </h1>
+            <h3>이름과 휴대폰번호 뒷자리(4자리)를 입력해주세요.</h3>
 
 
             <form  onSubmit={this.handleSubmit}>
@@ -112,13 +112,7 @@ class LoginPage extends Component {
                         onClick={this.moveFormPage}>
                             제출
                             </button>
-                            </p>
-                            <p><button className="btn btn-primary" type="submit"
-                        onClick={this.moveQuestions}
-                        >
-                            새페이지
-                            </button>
-                            </p>
+                            </p>                            
             </form>
         </div>
 
